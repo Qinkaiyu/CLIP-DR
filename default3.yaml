@@ -42,6 +42,7 @@ runner_cfg:
     type: CLIPDR
     prompt_learner_cfg:
       type: PlainPromptLearner
+      num_ranks: 5
       num_tokens_per_rank: 1
       num_context_tokens: 10
       rank_tokens_position: tail
