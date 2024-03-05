@@ -12,6 +12,5 @@ python run_test.py --config default3.yaml
 ```
 
 ## Train
-```
+
 The training code will be released after the accept of the manuscript.
-```
