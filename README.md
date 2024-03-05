@@ -3,7 +3,9 @@ This repository contains PyTorch implementation of "CLIP-DR: Textual Knowledge-G
 ## Prerequisite  
 ### Dataset
 ### Checkpoint
-We will upload checkpoint later.
+```
+https://drive.google.com/drive/folders/1kNrdaGYOz2Z4BGUtN3PKR7TSECP41RK6?usp=drive_link
+```
 ## Test
 ```bash
 python run_test.py --config default3.yaml
