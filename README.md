@@ -14,7 +14,7 @@ Data can be obtained from [here](./GDRBench/README.md).
 
 Your dataset should be organized as: 
 
-target_DATA(need change)_train should include all images path and label. Adjust according to different targets of your DG test.
+Adjust target_DATA(need change)_train according to different targets of your DG test.
 
 ```
 .
