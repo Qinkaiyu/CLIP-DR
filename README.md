@@ -44,15 +44,14 @@ Adjust target_DATA(need change)_train according to different targets of your DG 
 ```
 ## Train
 ```
-The training code will be released after the accept of the manuscript.
-```
+Coming soon```
 ### Checkpoint
 ```
 https://drive.google.com/drive/folders/1kNrdaGYOz2Z4BGUtN3PKR7TSECP41RK6?usp=drive_link
 ```
 ## Test
 ```bash
-python run_test.py --config default3.yaml
+python run_test.py --config default.yaml
 ```
 
 
