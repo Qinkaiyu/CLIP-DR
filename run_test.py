@@ -14,7 +14,7 @@ from pytorch_lightning import loggers as pl_loggers
 from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
-from clipdr.runnerr.data2 import RegressionDataModule
+from clipdr.runnerr.data import RegressionDataModule
 from clipdr.runnerr.runner_test import Runner
 from clipdr.utils.logging import get_logger, setup_file_handle_for_all_logger
 
