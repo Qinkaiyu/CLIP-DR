@@ -42,6 +42,11 @@ Adjust target_DATA(need change)_train according to different targets of your DG 
     ...
 
 ```
+### Installation
+```
+pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 pytorch-lightning==1.6.3
+```
+
 ## Train
 ```
 Coming soon
