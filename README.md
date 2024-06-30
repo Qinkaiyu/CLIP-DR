@@ -43,7 +43,9 @@ Adjust target_DATA(need change)_train according to different targets of your DG 
 
 ```
 ## Train
-```Coming soon```
+```
+Coming soon
+```
 
 ### Checkpoint
 ```
