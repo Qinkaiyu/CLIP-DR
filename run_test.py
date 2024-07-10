@@ -47,8 +47,8 @@ def main(cfg: DictConfig):
 
     regression_datamodule = RegressionDataModule(**OmegaConf.to_container(cfg.data_cfg))
     # Testing
-
-    ckpt_paths= ['C:/Users/yuqinkai/PycharmProjects/pythonProject/OrdinalCLIP/results\dummy/version_430/ckpts/last.ckpt']
+    
+    ckpt_paths= []
     for ckpt_path in ckpt_paths:
         logger.info(f"Start testing ckpt: {ckpt_path}.----------------------------------------")
 
