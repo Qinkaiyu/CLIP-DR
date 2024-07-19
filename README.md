@@ -10,7 +10,7 @@ Diabetic retinopathy (DR) is a complication of diabetes and usually takes decade
 ## Prerequisite  
 
 ### Dataset
-Data can be obtained from [here](./GDRBench/README.md).
+Data can be obtained from [here](https://github.com/chehx/DGDR/blob/main/GDRBench/README.md).
 
 Your dataset should be organized as: 
 
