@@ -62,4 +62,12 @@ https://drive.google.com/drive/folders/1kNrdaGYOz2Z4BGUtN3PKR7TSECP41RK6?usp=dri
 python run_test.py --config default.yaml
 ```
 
-
+## cite
+```
+@article{yu2024clip,
+  title={CLIP-DR: Textual Knowledge-Guided Diabetic Retinopathy Grading with Ranking-aware Prompting},
+  author={Yu, Qinkai and Xie, Jianyang and Nguyen, Anh and Zhao, He and Zhang, Jiong and Fu, Huazhu and Zhao, Yitian and Zheng, Yalin and Meng, Yanda},
+  journal={arXiv preprint arXiv:2407.04068},
+  year={2024}
+}
+```
