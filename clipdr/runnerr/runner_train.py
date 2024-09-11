@@ -79,13 +79,13 @@ class Runner(pl.LightningModule):
         #our_logits = smoothed_features
         if M == 0:
             # similarity smooth
-            current_epoch = self.current_epoch
-            self.FDS.update_last_epoch_stats(current_epoch)
-            our_logits_copy = our_logits.detach()
-            self.FDS.update_running_stats(our_logits_copy, y, current_epoch)
-            smoothed_features = self.FDS.smooth(features=our_logits, labels=y, epoch=0)
-            our_logits = smoothed_features
-            print("smoothed_features", smoothed_features)
+            #current_epoch = self.current_epoch
+            #self.FDS.update_last_epoch_stats(current_epoch)
+            #our_logits_copy = our_logits.detach()
+            #self.FDS.update_running_stats(our_logits_copy, y, current_epoch)
+            #smoothed_features = self.FDS.smooth(features=our_logits, labels=y, epoch=0)
+            #our_logits = smoothed_features
+            #print("smoothed_features", smoothed_features)
 
             rank_loss = self.rank_loss(our_logits,y)
             #loss_main
