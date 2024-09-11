@@ -49,8 +49,7 @@ pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 pytorch-lightning==1.6.3
 
 ## Train
 ```
-Coming soon
-```
+python run_train.py --config default.yaml```
 
 ### Checkpoint
 ```
