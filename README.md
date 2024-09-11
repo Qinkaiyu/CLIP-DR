@@ -48,13 +48,15 @@ pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 pytorch-lightning==1.6.3
 ```
 
 ## Train
+```bash
+python run_train.py --config default.yaml
 ```
-python run_train.py --config default.yaml```
 
 ### Checkpoint
 ```
 https://drive.google.com/drive/folders/1kNrdaGYOz2Z4BGUtN3PKR7TSECP41RK6?usp=drive_link
 ```
+
 ## Test
 ```bash
 python run_test.py --config default.yaml
